@@ -17,6 +17,7 @@ class _HomePageState extends State<HomePage> {
   final String _apiUrl =
       "https://restcountries.com/v3.1/all?fields=cca2,name,capital,region,population,flags,languages";
 
+  // Ulke listesi
   List<Ulke> ulkeler = [];
   List<String> _favoriler = [];
 
